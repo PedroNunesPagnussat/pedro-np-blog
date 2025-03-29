@@ -101,14 +101,9 @@ period = "Jan 2021 - Dec 2024"
 location = "Porto Alegre, Brazil"
 
 
-# [[params.testimonials]]
-#     quote = "He is such a handsome boy, helped me with my computer."
-#     name = "Grandma"
-#     position = "Retired"
-
 [[params.testimonials]]
     quote = "The Best student I've ever had."
-    name = "Probably all of my Professors"
+    name = "All of my Professors (I think)"
     position = "Professor"
 
 [[params.testimonials]]
@@ -121,3 +116,24 @@ location = "Porto Alegre, Brazil"
     quote = "Pedro is an exceptional developer who delivered beyond our expectations."
     name = "My Self"
     position = "Data Scientist"
+
+[[params.testimonials]]
+    quote = "He is such a handsome boy, helped me with my computer."
+    name = "Grandma"
+    position = "Retired"
+
+[[params.languages]]
+name = "Portuguese"
+level = "Native"
+
+[[params.languages]]
+name = "English"
+level = "Advanced / C1"
+
+[[params.languages]]
+name = "Chinese"
+level = "Beginner / HSK 1"
+
+[[params.languages]]
+name = "Spanish"
+level = "Intermediate"
