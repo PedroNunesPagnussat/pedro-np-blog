@@ -19,3 +19,55 @@ name = "Pedro Nunes Pagnussat"
 location = "Porto Alegre, Brazil"
 description = "I'm a Data Scientist with a strong background in NLP, LLMs, and recommendation systems. Currently, I work at Telus Digital and am pursuing a Master's in Computer Science at UFRGS. I enjoy building end-to-end AI solutions that help people automate the tedious parts of life and work, giving them more time to focus on what truly matters. I'm always eager to explore innovative projects and continuously expand my knowledge."
 profile_image = "/images/pfp.png"
+
+# Social Media Links
+github = "https://github.com/PedroNunesPagnussat"
+email = "mailto:nppedronp@gmail.com"
+linkedin = "https://linkedin.com/in/pedronp"
+
+[params.socialIcons]
+github = "https://github.com/PedroNunesPagnussat"
+linkedin = "https://linkedin.com/in/pedronp"
+email = "mailto:nppedronp@gmail.com"
+
+# Experience
+[[params.experience]]
+company = "Telus Digital"
+role = "Data Scientist"
+period = "Nov 2024 - Present"
+logo = "/images/companies/telus.png"
+description = "Leading AI-driven initiatives to enhance pricing strategies and optimize customer selection for international telecom partnerships."
+responsibilities = [
+"Developed a dynamic pricing model using deep learning on unbalanced datasets, significantly enhancing sales team performance and pricing accuracy.",
+"Designed a comprehensive quality scoring system that integrates feedback, survey data, partner costs, and commercial agreements to recommend optimal international roaming partners—scaling analysis from 25 to 50 countries and freeing expert analysts to focus other high-impact cases.",
+"Collaborated on Retrieval Augmented Generation (RAG) projects, contributing optimized pipeline strategies to accelerate solution delivery across teams."
+]
+
+
+
+[[params.experience]]
+company = "Teia Labs"
+role = "Software/Prompt Engineer"
+period = "Jan 2024 - Nov 2024"
+logo = "/images/companies/teia.png"
+description = "Led the development of AI-powered tools and a RAG-based ETL pipeline to streamline company information retrieval for a venture capital firm."
+responsibilities = [
+"Engineered advanced ETL pipelines transforming SQL data into embeddings, reducing processing time from 72 hours to 1 hour with dynamic summarization and classification.",
+"Developed a hybrid RAG-powered recommendation system combining vector search and NoSQL queries for tailored content delivery.",
+"Built a sentiment analysis pipeline with granular insights using Likert scales and product/company-level breakdowns, enhancing feedback interpretation.",
+"Created an LLM-based tool for summarizing web content and email communications, streamlining content review processes.",
+"Launched an integrated chatbot leveraging core components to connect users with relevant companies, improving discovery and engagement."
+]
+
+
+[[params.experience]]
+company = "HP"
+role = "Intern in Data Science"
+period = "Jan 2023 - Jan 2024"
+logo = "/images/companies/hp.svg"
+description = "Contributed to data-driven decision-making through dashboard development, performance optimization, and training initiatives."
+responsibilities = [
+"Designed and maintained interactive Power BI dashboards to support business intelligence efforts.",
+"Improved data handling performance by implementing materialized views for large-scale tables.",
+"Led team training sessions and created documentation to streamline Power BI adoption and improve productivity."
+]
