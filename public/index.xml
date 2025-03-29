@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pedro Nunes Pagnussat</title>
-    <link>http://localhost:1313/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on Pedro Nunes Pagnussat</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Search</title>
-      <link>http://localhost:1313/search/</link>
+      <title>About</title>
+      <link>//localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/search/</guid>
-      <description></description>
+      <guid>//localhost:1313/about/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been working with machine learning, data, and AI for the past 5 years, and I’m always motivated by building practical solutions to real problems. Whether it&amp;rsquo;s developing models, improving workflows, or experimenting with new ideas, I enjoy the process of creating tools that are both smart and useful.&lt;/p&gt;&#xA;&lt;p&gt;Outside of work, I’m passionate about learning new things, whether it’s through reading, exploring new technologies, or diving into a great video game. I also love to travel and find a lot of inspiration in experiencing different cultures and perspectives.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

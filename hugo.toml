@@ -1,4 +1,4 @@
-baseURL = 'https://pedronp.dev/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Pedro Nunes Pagnussat'
 theme = 'hugo-noir'
@@ -85,3 +85,19 @@ responsibilities = [
 "Used Variational Autoencoders (VAEs) to encode document information into compact latent representations.",
 "Conducted classical machine learning workshops to share foundational ML knowledge and practical skills with peers."
 ]
+
+
+[[params.education]]
+institution = "Federal University of Rio Grande do Sul"
+title = "Master of Science in Computer Science"
+period = "Jan 2025 - Present"
+location = "Porto Alegre, Brazil"
+
+
+[[params.education]]
+institution = "Pontifical Catholic University of Rio Grande do Sul"
+title = "Bachelor of Science in Data Science and Artificial Intelligence"
+period = "Jan 2021 - Dec 2024"
+location = "Porto Alegre, Brazil"
+
+
