@@ -71,3 +71,17 @@ responsibilities = [
 "Improved data handling performance by implementing materialized views for large-scale tables.",
 "Led team training sessions and created documentation to streamline Power BI adoption and improve productivity."
 ]
+
+[[params.experience]]
+company = "LIS (Laboratory of Software Inovation)"
+role = "Machine Learning Research Intern"
+period = "Oct 2021 - Dec 2022"
+logo = "/images/companies/hp.svg"
+description = "Contributed to research and development of deep learning and classical ML solutions for document processing, CV, and NLP tasks."
+responsibilities = [
+"Implemented UNet-based models for pixel-wise semantic segmentation for improving document scanning.",
+"Developed Named Entity Recognition (NER) models for automatic file naming in document scanning applications.",
+"Created classifiers for automatic document categorization, improving digital archiving workflows.",
+"Used Variational Autoencoders (VAEs) to encode document information into compact latent representations.",
+"Conducted classical machine learning workshops to share foundational ML knowledge and practical skills with peers."
+]
