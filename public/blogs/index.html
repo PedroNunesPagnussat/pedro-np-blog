@@ -3,7 +3,7 @@
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Search - Pedro Nunes Pagnussat</title>
+        <title>Blogs - Pedro Nunes Pagnussat</title>
         
         
         <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/favicon_io/apple-touch-icon.png">
@@ -131,7 +131,7 @@
         <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <div class="flex justify-between items-center">
                 <a href="http://localhost:1313/" class="text-xl font-bold text-white hover:text-gray-300 transition-colors duration-300">
-                    Pedro Nunes Pagnussat
+                    John Doe
                 </a>
                 
                 <button id="mobile-menu-button" class="md:hidden text-gray-300 hover:text-white focus:outline-none">
@@ -146,8 +146,16 @@
                 <a href="http://localhost:1313/about/" class="inline-block text-lg text-gray-300 hover:text-white transition-colors duration-300 ">About</a>
                 <a href="http://localhost:1313/experience/" class="inline-block text-lg text-gray-300 hover:text-white transition-colors duration-300 ">Experience</a>
                 <a href="http://localhost:1313/projects/" class="inline-block text-lg text-gray-300 hover:text-white transition-colors duration-300 ">Projects</a>
-                <a href="http://localhost:1313/blogs/" class="inline-block text-lg text-gray-300 hover:text-white transition-colors duration-300 ">Blog</a>
+                <a href="http://localhost:1313/blogs/" class="inline-block text-lg text-gray-300 hover:text-white transition-colors duration-300 text-white font-semibold">Blog</a>
                 <a href="http://localhost:1313/contact/" class="inline-block text-lg text-gray-300 hover:text-white transition-colors duration-300 ">Contact</a>
+                <div class="relative">
+                    <input type="text" id="search-input" placeholder="Search..." class="bg-gray-800 text-white px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 w-48">
+                    <button id="search-button" class="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-white">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                    </button>
+                </div>
             </nav>
             <div class="hidden md:flex justify-end">
                 <div class="flex items-center">
@@ -173,8 +181,16 @@
                 <a href="http://localhost:1313/about/" class="text-xl text-gray-300 hover:text-white transition-colors duration-300 ">About</a>
                 <a href="http://localhost:1313/experience/" class="text-xl text-gray-300 hover:text-white transition-colors duration-300 ">Experience</a>
                 <a href="http://localhost:1313/projects/" class="text-xl text-gray-300 hover:text-white transition-colors duration-300 ">Projects</a>
-                <a href="http://localhost:1313/blogs/" class="text-xl text-gray-300 hover:text-white transition-colors duration-300 ">Blog</a>
+                <a href="http://localhost:1313/blogs/" class="text-xl text-gray-300 hover:text-white transition-colors duration-300 text-white font-semibold">Blog</a>
                 <a href="http://localhost:1313/contact/" class="text-xl text-gray-300 hover:text-white transition-colors duration-300 ">Contact</a>
+                <div class="relative mt-4">
+                    <input type="text" id="mobile-search-input" placeholder="Search..." class="bg-gray-800 text-white px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 w-full">
+                    <button id="mobile-search-button" class="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-white">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                    </button>
+                </div>
             </nav>
             <div class="mt-auto p-6 border-t border-gray-800">
                 <div class="flex items-center justify-center">
@@ -273,14 +289,195 @@
 </script> 
         <main>
             
-<div class="w-1/2 mx-auto py-12">
-    <div class="max-w-3xl mx-auto p-8 border border-gray-800 rounded-2xl bg-[#121212]">
-        <h1 class="text-4xl font-bold mb-4">Search</h1>
+<div class="w-full md:w-3/4 lg:w-1/2 mx-auto px-4 py-12">
+    <h1 class="text-5xl font-bold mb-12">Blogs</h1>
+    
+    <div class="space-y-12 max-w-3xl mx-auto">
         
-        
-        <div class="prose prose-invert max-w-none">
-            
+        <div class="group">
+            <p class="text-gray-400 text-sm mb-2">2025-03-15</p>
+            <a href="https://medium.com/@loremipsum/lorem-systems" class="block" target="_blank">
+                <h3 class="text-xl font-medium text-blue-400 hover:text-blue-300 transition-colors duration-200 mb-3">Lorem Ipsum Systems</h3>
+            </a>
+            <p class="text-gray-400 mb-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+            <div class="flex flex-wrap gap-2">
+                
+                
+                <span class="px-2 py-1 text-xs bg-[#121212] text-gray-100 border border-gray-800 rounded-md transition-all duration-300">Lorem</span>
+                
+                
+                
+                <span class="px-2 py-1 text-xs bg-[#121212] text-gray-100 border border-gray-800 rounded-md transition-all duration-300">Ipsum</span>
+                
+                
+                
+                <span class="px-2 py-1 text-xs bg-[#121212] text-gray-100 border border-gray-800 rounded-md transition-all duration-300">Dolor</span>
+                
+                
+            </div>
         </div>
+        
+        <div class="group">
+            <p class="text-gray-400 text-sm mb-2">2025-02-28</p>
+            <a href="https://medium.com/@loremipsum/future-dolor" class="block" target="_blank">
+                <h3 class="text-xl font-medium text-blue-400 hover:text-blue-300 transition-colors duration-200 mb-3">The Future of Dolor</h3>
+            </a>
+            <p class="text-gray-400 mb-4">At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
+            <div class="flex flex-wrap gap-2">
+                
+                
+                <span class="px-2 py-1 text-xs bg-[#121212] text-gray-100 border border-gray-800 rounded-md transition-all duration-300">Sit</span>
+                
+                
+                
+                <span class="px-2 py-1 text-xs bg-[#121212] text-gray-100 border border-gray-800 rounded-md transition-all duration-300">Amet</span>
+                
+                
+                
+                <span class="px-2 py-1 text-xs bg-[#121212] text-gray-100 border border-gray-800 rounded-md transition-all duration-300">Consectetur</span>
+                
+                
+            </div>
+        </div>
+        
+        <div class="group">
+            <p class="text-gray-400 text-sm mb-2">2025-02-10</p>
+            <a href="https://medium.com/@loremipsum/adipiscing-guide" class="block" target="_blank">
+                <h3 class="text-xl font-medium text-blue-400 hover:text-blue-300 transition-colors duration-200 mb-3">Adipiscing: A Practical Guide</h3>
+            </a>
+            <p class="text-gray-400 mb-4">Nam libero tempore, cum soluta nobis est eligendi optio.</p>
+            <div class="flex flex-wrap gap-2">
+                
+                
+                <span class="px-2 py-1 text-xs bg-[#121212] text-gray-100 border border-gray-800 rounded-md transition-all duration-300">Elit</span>
+                
+                
+                
+                <span class="px-2 py-1 text-xs bg-[#121212] text-gray-100 border border-gray-800 rounded-md transition-all duration-300">Tempor</span>
+                
+                
+                
+                <span class="px-2 py-1 text-xs bg-[#121212] text-gray-100 border border-gray-800 rounded-md transition-all duration-300">Guide</span>
+                
+                
+            </div>
+        </div>
+        
+        <div class="group">
+            <p class="text-gray-400 text-sm mb-2">2025-01-20</p>
+            <a href="https://medium.com/@loremipsum/optimizing-incididunt" class="block" target="_blank">
+                <h3 class="text-xl font-medium text-blue-400 hover:text-blue-300 transition-colors duration-200 mb-3">Optimizing Incididunt</h3>
+            </a>
+            <p class="text-gray-400 mb-4">Temporibus autem quibusdam et aut officiis debitis.</p>
+            <div class="flex flex-wrap gap-2">
+                
+                
+                <span class="px-2 py-1 text-xs bg-[#121212] text-gray-100 border border-gray-800 rounded-md transition-all duration-300">Labore</span>
+                
+                
+                
+                <span class="px-2 py-1 text-xs bg-[#121212] text-gray-100 border border-gray-800 rounded-md transition-all duration-300">Dolore</span>
+                
+                
+                
+                <span class="px-2 py-1 text-xs bg-[#121212] text-gray-100 border border-gray-800 rounded-md transition-all duration-300">Magna</span>
+                
+                
+            </div>
+        </div>
+        
+        <div class="group">
+            <p class="text-gray-400 text-sm mb-2">2024-12-15</p>
+            <a href="https://medium.com/@loremipsum/aliqua-guide" class="block" target="_blank">
+                <h3 class="text-xl font-medium text-blue-400 hover:text-blue-300 transition-colors duration-200 mb-3">Aliqua: A Comprehensive Guide</h3>
+            </a>
+            <p class="text-gray-400 mb-4">Quis autem vel eum iure reprehenderit qui in ea voluptate.</p>
+            <div class="flex flex-wrap gap-2">
+                
+                
+                <span class="px-2 py-1 text-xs bg-[#121212] text-gray-100 border border-gray-800 rounded-md transition-all duration-300">Ut</span>
+                
+                
+                
+                <span class="px-2 py-1 text-xs bg-[#121212] text-gray-100 border border-gray-800 rounded-md transition-all duration-300">Enim</span>
+                
+                
+                
+                <span class="px-2 py-1 text-xs bg-[#121212] text-gray-100 border border-gray-800 rounded-md transition-all duration-300">Minim</span>
+                
+                
+            </div>
+        </div>
+        
+        <div class="group">
+            <p class="text-gray-400 text-sm mb-2">2024-11-20</p>
+            <a href="https://medium.com/@loremipsum/veniam-practice" class="block" target="_blank">
+                <h3 class="text-xl font-medium text-blue-400 hover:text-blue-300 transition-colors duration-200 mb-3">Veniam in Practice</h3>
+            </a>
+            <p class="text-gray-400 mb-4">Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+            <div class="flex flex-wrap gap-2">
+                
+                
+                <span class="px-2 py-1 text-xs bg-[#121212] text-gray-100 border border-gray-800 rounded-md transition-all duration-300">Esse</span>
+                
+                
+                
+                <span class="px-2 py-1 text-xs bg-[#121212] text-gray-100 border border-gray-800 rounded-md transition-all duration-300">Cillum</span>
+                
+                
+                
+                <span class="px-2 py-1 text-xs bg-[#121212] text-gray-100 border border-gray-800 rounded-md transition-all duration-300">Dolore</span>
+                
+                
+            </div>
+        </div>
+        
+        <div class="group">
+            <p class="text-gray-400 text-sm mb-2">2024-10-25</p>
+            <a href="https://medium.com/@loremipsum/fugiat-systems" class="block" target="_blank">
+                <h3 class="text-xl font-medium text-blue-400 hover:text-blue-300 transition-colors duration-200 mb-3">Fugiat for Systems</h3>
+            </a>
+            <p class="text-gray-400 mb-4">Sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="flex flex-wrap gap-2">
+                
+                
+                <span class="px-2 py-1 text-xs bg-[#121212] text-gray-100 border border-gray-800 rounded-md transition-all duration-300">Nulla</span>
+                
+                
+                
+                <span class="px-2 py-1 text-xs bg-[#121212] text-gray-100 border border-gray-800 rounded-md transition-all duration-300">Pariatur</span>
+                
+                
+                
+                <span class="px-2 py-1 text-xs bg-[#121212] text-gray-100 border border-gray-800 rounded-md transition-all duration-300">Systems</span>
+                
+                
+            </div>
+        </div>
+        
+        <div class="group">
+            <p class="text-gray-400 text-sm mb-2">2024-09-30</p>
+            <a href="https://medium.com/@loremipsum/consectetur-practices" class="block" target="_blank">
+                <h3 class="text-xl font-medium text-blue-400 hover:text-blue-300 transition-colors duration-200 mb-3">Best Practices in Consectetur</h3>
+            </a>
+            <p class="text-gray-400 mb-4">Sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+            <div class="flex flex-wrap gap-2">
+                
+                
+                <span class="px-2 py-1 text-xs bg-[#121212] text-gray-100 border border-gray-800 rounded-md transition-all duration-300">Best</span>
+                
+                
+                
+                <span class="px-2 py-1 text-xs bg-[#121212] text-gray-100 border border-gray-800 rounded-md transition-all duration-300">Practices</span>
+                
+                
+                
+                <span class="px-2 py-1 text-xs bg-[#121212] text-gray-100 border border-gray-800 rounded-md transition-all duration-300">Guide</span>
+                
+                
+            </div>
+        </div>
+        
     </div>
 </div>
 
@@ -290,7 +487,7 @@
     <div class="max-w-3xl mx-auto">
         <div class="border-t border-gray-800 pt-5">
             <div class="flex flex-col items-center justify-center gap-2">                
-                <p class="text-gray-500 text-xm ">© 2025 Pedro Nunes Pagnussat</p>
+                <p class="text-gray-500 text-xm ">© 2025 John Doe</p>
                 <p class="text-gray-500 text-xm pb-12">Built using <a href="https://gohugo.io/" target="_blank" class="animated-link text-gray-400 hover:text-gray-200">Hugo</a>. & <a href="https://github.com/prxshetty/" target="_blank" class="animated-link text-gray-400 hover:text-gray-200">Hugo Noir</a></p>
             </div>
         </div>

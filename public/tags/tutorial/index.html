@@ -3,7 +3,7 @@
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Search - Pedro Nunes Pagnussat</title>
+        <title>Tutorial - Pedro Nunes Pagnussat</title>
         
         
         <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/favicon_io/apple-touch-icon.png">
@@ -131,7 +131,7 @@
         <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <div class="flex justify-between items-center">
                 <a href="http://localhost:1313/" class="text-xl font-bold text-white hover:text-gray-300 transition-colors duration-300">
-                    Pedro Nunes Pagnussat
+                    John Doe
                 </a>
                 
                 <button id="mobile-menu-button" class="md:hidden text-gray-300 hover:text-white focus:outline-none">
@@ -148,6 +148,14 @@
                 <a href="http://localhost:1313/projects/" class="inline-block text-lg text-gray-300 hover:text-white transition-colors duration-300 ">Projects</a>
                 <a href="http://localhost:1313/blogs/" class="inline-block text-lg text-gray-300 hover:text-white transition-colors duration-300 ">Blog</a>
                 <a href="http://localhost:1313/contact/" class="inline-block text-lg text-gray-300 hover:text-white transition-colors duration-300 ">Contact</a>
+                <div class="relative">
+                    <input type="text" id="search-input" placeholder="Search..." class="bg-gray-800 text-white px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 w-48">
+                    <button id="search-button" class="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-white">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                    </button>
+                </div>
             </nav>
             <div class="hidden md:flex justify-end">
                 <div class="flex items-center">
@@ -175,6 +183,14 @@
                 <a href="http://localhost:1313/projects/" class="text-xl text-gray-300 hover:text-white transition-colors duration-300 ">Projects</a>
                 <a href="http://localhost:1313/blogs/" class="text-xl text-gray-300 hover:text-white transition-colors duration-300 ">Blog</a>
                 <a href="http://localhost:1313/contact/" class="text-xl text-gray-300 hover:text-white transition-colors duration-300 ">Contact</a>
+                <div class="relative mt-4">
+                    <input type="text" id="mobile-search-input" placeholder="Search..." class="bg-gray-800 text-white px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 w-full">
+                    <button id="mobile-search-button" class="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-white">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                    </button>
+                </div>
             </nav>
             <div class="mt-auto p-6 border-t border-gray-800">
                 <div class="flex items-center justify-center">
@@ -273,14 +289,19 @@
 </script> 
         <main>
             
-<div class="w-1/2 mx-auto py-12">
-    <div class="max-w-3xl mx-auto p-8 border border-gray-800 rounded-2xl bg-[#121212]">
-        <h1 class="text-4xl font-bold mb-4">Search</h1>
+<div class="container mx-auto px-4 py-12">
+    <h1 class="text-4xl font-bold mb-8">Tutorial</h1>
+    <div class="space-y-6">
         
-        
-        <div class="prose prose-invert max-w-none">
+        <article class="border border-gray-700 rounded-lg p-6 bg-[#1a1a1a]">
+            <h2 class="text-2xl font-semibold mb-2">
+                <a href="../../blogs/example-post/" class="hover:text-gray-300">Getting Started with Web Development</a>
+            </h2>
             
-        </div>
+            <p class="text-gray-400">A comprehensive guide to starting your journey in web development, covering HTML, CSS, and JavaScript basics.</p>
+            
+        </article>
+        
     </div>
 </div>
 
@@ -290,7 +311,7 @@
     <div class="max-w-3xl mx-auto">
         <div class="border-t border-gray-800 pt-5">
             <div class="flex flex-col items-center justify-center gap-2">                
-                <p class="text-gray-500 text-xm ">© 2025 Pedro Nunes Pagnussat</p>
+                <p class="text-gray-500 text-xm ">© 2025 John Doe</p>
                 <p class="text-gray-500 text-xm pb-12">Built using <a href="https://gohugo.io/" target="_blank" class="animated-link text-gray-400 hover:text-gray-200">Hugo</a>. & <a href="https://github.com/prxshetty/" target="_blank" class="animated-link text-gray-400 hover:text-gray-200">Hugo Noir</a></p>
             </div>
         </div>

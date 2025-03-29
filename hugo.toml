@@ -6,3 +6,16 @@ theme = 'hugo-noir'
 # URL handling
 relativeURLs = true
 canonifyURLs = true
+
+# Taxonomy configuration
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+
+# My data
+[params]
+name = "Pedro Nunes Pagnussat"
+location = "Porto Alegre, Brazil"
+description = "I'm a Data Scientist with a strong background in NLP, LLMs, and recommendation systems. Currently, I work at Telus Digital and am pursuing a Master's in Computer Science at UFRGS. I enjoy building end-to-end AI solutions that help people automate the tedious parts of life and work, giving them more time to focus on what truly matters. I'm always eager to explore innovative projects and continuously expand my knowledge."
+profile_image = "/images/pfp.png"
