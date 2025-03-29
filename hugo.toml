@@ -1,3 +1,8 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://pedronp.dev/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Pedro Nunes Pagnussat'
+theme = 'hugo-noir'
+
+# URL handling
+relativeURLs = true
+canonifyURLs = true
