@@ -101,3 +101,23 @@ period = "Jan 2021 - Dec 2024"
 location = "Porto Alegre, Brazil"
 
 
+# [[params.testimonials]]
+#     quote = "He is such a handsome boy, helped me with my computer."
+#     name = "Grandma"
+#     position = "Retired"
+
+[[params.testimonials]]
+    quote = "The Best student I've ever had."
+    name = "Probably all of my Professors"
+    position = "Professor"
+
+[[params.testimonials]]
+    quote = "Best computer guy in the world."
+    name = "Mom"
+    position = "My Mom"
+
+
+[[params.testimonials]]
+    quote = "Pedro is an exceptional developer who delivered beyond our expectations."
+    name = "My Self"
+    position = "Data Scientist"
