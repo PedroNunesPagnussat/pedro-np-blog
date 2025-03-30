@@ -6,6 +6,14 @@
     <description>Recent content in Categories on Pedro Nunes Pagnussat</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 15 Mar 2023 10:30:00 +0530</lastBuildDate>
     <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tutorials</title>
+      <link>//localhost:1313/categories/tutorials/</link>
+      <pubDate>Wed, 15 Mar 2023 10:30:00 +0530</pubDate>
+      <guid>//localhost:1313/categories/tutorials/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
