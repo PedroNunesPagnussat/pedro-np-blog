@@ -132,8 +132,30 @@ level = "Advanced / C1"
 
 [[params.languages]]
 name = "Chinese"
-level = "Beginner / HSK 1"
+level = "HSK 1"
 
 [[params.languages]]
 name = "Spanish"
 level = "Intermediate"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+  [[menu.main]]
+    name = "Experience"
+    url = "/experience/"
+    weight = 2
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+  [[menu.main]]
+    name = "Blogs"
+    url = "/blogs/"
+    weight = 4
+  [[menu.main]]
+    name = "Contact Me"
+    url = "/contact/"
+    weight = 5
