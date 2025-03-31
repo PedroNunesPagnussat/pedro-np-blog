@@ -1,0 +1,53 @@
+<!-- Go to Top Button -->
+<div id="go-to-top" title="Go to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 19V5M5 12l7-7 7 7"/>
+    </svg>
+</div>
+
+<style>
+#go-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #333;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: opacity 0.3s, visibility 0.3s;
+    z-index: 1000;
+    opacity: 0.7;
+}
+
+#go-to-top:hover {
+    opacity: 1;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var goToTop = document.getElementById('go-to-top');
+    
+    // Show button when scrolling down 100px
+    window.addEventListener('scroll', function() {
+        if (window.pageYOffset > 100) {
+            goToTop.style.display = 'flex';
+        } else {
+            goToTop.style.display = 'none';
+        }
+    });
+    
+    // Smooth scroll to top when clicked
+    goToTop.addEventListener('click', function() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+});
+</script> 
