@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://pedronp.github.io'
 languageCode = 'en-us'
 title = 'Pedro Nunes Pagnussat'
 theme = 'hugo-noir'
@@ -35,7 +35,7 @@ email = "mailto:nppedronp@gmail.com"
 company = "Telus Digital"
 role = "Data Scientist"
 period = "Nov 2024 - Present"
-logo = "/images/companies/telus.png"
+logo = "/images/companies/td.png"
 description = "Leading AI-driven initiatives to enhance pricing strategies and optimize customer selection for international telecom partnerships."
 responsibilities = [
 "Developed a dynamic pricing model using deep learning on unbalanced datasets, significantly enhancing sales team performance and pricing accuracy.",
@@ -49,7 +49,7 @@ responsibilities = [
 company = "Teia Labs"
 role = "Software/Prompt Engineer"
 period = "Jan 2024 - Nov 2024"
-logo = "/images/companies/teia.png"
+logo = "/images/companies/teia_logo.jpeg"
 description = "Led the development of AI-powered tools and a RAG-based ETL pipeline to streamline company information retrieval for a venture capital firm."
 responsibilities = [
 "Engineered advanced ETL pipelines transforming SQL data into embeddings, reducing processing time from 72 hours to 1 hour with dynamic summarization and classification.",
@@ -64,7 +64,7 @@ responsibilities = [
 company = "HP"
 role = "Intern in Data Science"
 period = "Jan 2023 - Jan 2024"
-logo = "/images/companies/hp.svg"
+logo = "/images/companies/hp-logo.svg"
 description = "Contributed to data-driven decision-making through dashboard development, performance optimization, and training initiatives."
 responsibilities = [
 "Designed and maintained interactive Power BI dashboards to support business intelligence efforts.",
@@ -76,7 +76,7 @@ responsibilities = [
 company = "LIS (Laboratory of Software Inovation)"
 role = "Machine Learning Research Intern"
 period = "Oct 2021 - Dec 2022"
-logo = "/images/companies/hp.svg"
+logo = "/images/companies/hp-logo.svg"
 description = "Contributed to research and development of deep learning and classical ML solutions for document processing, CV, and NLP tasks."
 responsibilities = [
 "Implemented UNet-based models for pixel-wise semantic segmentation for improving document scanning.",

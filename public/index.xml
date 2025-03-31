@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pedro Nunes Pagnussat</title>
-    <link>//localhost:1313/</link>
+    <link>http://localhost:34989/</link>
     <description>Recent content on Pedro Nunes Pagnussat</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 15 Mar 2023 10:30:00 +0530</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:34989/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>//localhost:1313/posts/test/</link>
+      <link>http://localhost:34989/posts/test/</link>
       <pubDate>Wed, 15 Mar 2023 10:30:00 +0530</pubDate>
-      <guid>//localhost:1313/posts/test/</guid>
+      <guid>http://localhost:34989/posts/test/</guid>
       <description>&lt;p&gt;test&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>//localhost:1313/about/</link>
+      <link>http://localhost:34989/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/about/</guid>
+      <guid>http://localhost:34989/about/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been working with machine learning, data, and AI for the past 5 years, and I’m always motivated by building practical solutions to real problems. Whether it&amp;rsquo;s developing models, improving workflows, or experimenting with new ideas, I enjoy the process of creating tools that are both smart and useful.&lt;/p&gt;&#xA;&lt;p&gt;Outside of work, I’m passionate about learning new things, whether it’s through reading, exploring new technologies, or diving into a great video game. I also love to travel and find a lot of inspiration in experiencing different cultures and perspectives.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Blog</title>
-      <link>//localhost:1313/blogs/</link>
+      <link>http://localhost:34989/blogs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/blogs/</guid>
+      <guid>http://localhost:34989/blogs/</guid>
       <description>&lt;p&gt;Welcome to my blog! Here I&amp;rsquo;ll be sharing my thoughts, experiences, and insights.&lt;/p&gt;&#xA;&lt;h2 id=&#34;latest-posts&#34;&gt;Latest Posts&lt;/h2&gt;&#xA;&lt;p&gt;Stay tuned for more content coming soon!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Experience</title>
-      <link>//localhost:1313/experience/</link>
+      <link>http://localhost:34989/experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/experience/</guid>
+      <guid>http://localhost:34989/experience/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been working with machine learning, data, and AI for the past 5 years, and I’m always motivated by building practical solutions to real problems. Whether it&amp;rsquo;s developing models, improving workflows, or experimenting with new ideas, I enjoy the process of creating tools that are both smart and useful.&lt;/p&gt;&#xA;&lt;p&gt;Outside of work, I’m passionate about learning new things, whether it’s through reading, exploring new technologies, or diving into a great video game. I also love to travel and find a lot of inspiration in experiencing different cultures and perspectives.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Here&#39;s my number So call me, maybe</title>
-      <link>//localhost:1313/contact/</link>
+      <link>http://localhost:34989/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/contact/</guid>
+      <guid>http://localhost:34989/contact/</guid>
       <description>&lt;p&gt;WARNING: I HAD TO HARD CODE THE CONTENT ON THE HTML FILE&lt;/p&gt;</description>
     </item>
     <item>
       <title>Projects</title>
-      <link>//localhost:1313/projects/</link>
+      <link>http://localhost:34989/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/</guid>
+      <guid>http://localhost:34989/projects/</guid>
       <description></description>
     </item>
   </channel>
