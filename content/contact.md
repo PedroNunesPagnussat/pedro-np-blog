@@ -1,5 +1,5 @@
 ---
-title: "Here's my number So call me, maybe"
+title: "Contact Me"
 layout: "contact"
 ---
 

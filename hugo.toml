@@ -164,12 +164,12 @@ level = "Intermediate"
 
 
 
-[[params.projects]]
-title = "Smart Home Automation"
-description = "A smart home automation system that uses AI to control the home environment."
-tech = "Python, React, TensorFlow"
-image = "/images/projetcts/smart-home.png"
-link = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-featured = false
+# [[params.projects]]
+# title = ""
+# description = "A smart home automation system that uses AI to control the home environment."
+# tech = "Python, React, TensorFlow"
+# image = "/images/projetcts/smart-home.png"
+# link = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+# featured = false
 
 
