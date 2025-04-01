@@ -1,5 +1,5 @@
-# baseURL = 'https://pedronunespagnussat.github.io/'
-baseURL = '/'
+baseURL = 'https://pedronunespagnussat.github.io/'
+# baseURL = '/'
 languageCode = 'en-us'
 title = 'Pedro Nunes Pagnussat'
 theme = 'hugo-noir'
