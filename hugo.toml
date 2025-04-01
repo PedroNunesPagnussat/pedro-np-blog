@@ -1,4 +1,5 @@
 baseURL = 'https://pedronunespagnussat.github.io/'
+# baseURL = '/'
 languageCode = 'en-us'
 title = 'Pedro Nunes Pagnussat'
 theme = 'hugo-noir'
@@ -17,7 +18,7 @@ canonifyURLs = true
 [params]
 name = "Pedro Nunes Pagnussat"
 location = "Porto Alegre, Brazil"
-description = "I'm a Data Scientist with a strong background in NLP, LLMs, and recommendation systems. Currently, I work at Telus Digital and am pursuing a Master's in Computer Science at UFRGS. I enjoy building end-to-end AI solutions that help people automate the tedious parts of life and work, giving them more time to focus on what truly matters. I'm always eager to explore innovative projects and continuously expand my knowledge."
+description = "I'm a Data Scientist with a strong background in NLP, LLMs, and recommendation systems. Currently, I work at Telus Digital and pursuing a Master's in Computer Science at UFRGS. I enjoy building end-to-end AI solutions that help people automate the tedious parts of life and work, giving them more time to focus on what truly matters. I'm always eager to explore innovative projects and continuously expand my knowledge."
 profile_image = "/images/pfp.png"
 
 # Social Media Links
@@ -159,3 +160,16 @@ level = "Intermediate"
     name = "Contact Me"
     url = "/contact/"
     weight = 5
+
+
+
+
+# [[params.projects]]
+# title = ""
+# description = "A smart home automation system that uses AI to control the home environment."
+# tech = "Python, React, TensorFlow"
+# image = "/images/projetcts/smart-home.png"
+# link = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+# featured = false
+
+

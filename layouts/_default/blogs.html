@@ -3,15 +3,15 @@
     <h1 class="text-5xl font-bold mb-12">{{ .Title }}</h1>
     
     <div class="space-y-12 max-w-3xl mx-auto">
-        {{ range .Site.Params.blogs }}
+        {{ range where .Site.RegularPages "Section" "blogs" }}
         <div class="group">
-            <p class="text-gray-400 text-sm mb-2">{{ .date }}</p>
-            <a href="{{ .link }}" class="block" target="_blank">
-                <h3 class="text-xl font-medium text-blue-400 hover:text-blue-300 transition-colors duration-200 mb-3">{{ .title }}</h3>
+            <p class="text-gray-400 text-sm mb-2">{{ .Date.Format "January 2, 2006" }}</p>
+            <a href="{{ .RelPermalink }}" class="block">
+                <h3 class="text-xl font-medium text-blue-400 hover:text-blue-300 transition-colors duration-200 mb-3">{{ .Title }}</h3>
             </a>
-            <p class="text-gray-400 mb-4">{{ .summary }}</p>
+            <p class="text-gray-400 mb-4">{{ .Description }}</p>
             <div class="flex flex-wrap gap-2">
-                {{ range .tags }}
+                {{ range .Params.tags }}
                 {{ if ne . "" }}
                 <span class="px-2 py-1 text-xs bg-[#121212] text-gray-100 border border-gray-800 rounded-md transition-all duration-300">{{ . }}</span>
                 {{ end }}
@@ -20,19 +20,6 @@
         </div>
         {{ end }}
     </div>
-
-
-    <section class="mt-20 mb-20">
-        <div class="flex justify-between items-center mb-8">
-            <h2 class="text-4xl font-bold">Blog Posts 🚧</h2>
-        </div>
-        <div class="max-w-3xl mx-auto text-center p-8 border border-gray-700 rounded-lg bg-[#121212]">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto mb-4 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
-            </svg>
-            <h3 class="text-xl font-semibold mb-2">Blog Posts Coming Soon!</h3>
-        </div>
-    </section>
 
 </div>
 {{ end }} 
